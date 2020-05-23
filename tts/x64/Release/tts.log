@@ -1,0 +1,474 @@
+﻿  tts.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\danzeng.cse-yajie\source\repos\tts\third_party\dapcstp\include\bbnode.h(17): warning C4244: 'initializing': conversion from 'double' to 'weight_t', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\third_party\dapcstp\include\bbtree.h(119): warning C4244: 'initializing': conversion from 'double' to 'weight_t', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(276): warning C4244: '=': conversion from 'const _Ty' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty=float
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(485): warning C4838: conversion from 'int' to 'short' requires a narrowing conversion
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(496): warning C4838: conversion from '_Ty' to 'short' requires a narrowing conversion
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(543): warning C4838: conversion from 'int' to 'short' requires a narrowing conversion
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(554): warning C4838: conversion from '_Ty' to 'short' requires a narrowing conversion
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(653): warning C4838: conversion from 'int' to 'short' requires a narrowing conversion
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(664): warning C4838: conversion from '_Ty' to 'short' requires a narrowing conversion
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(728): warning C4838: conversion from '_Ty' to 'short' requires a narrowing conversion
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(1056): warning C4838: conversion from 'int' to 'short' requires a narrowing conversion
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(1073): warning C4838: conversion from '_Ty' to 'short' requires a narrowing conversion
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(1177): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(1186): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(1194): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(1203): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(1370): warning C4838: conversion from 'int' to 'short' requires a narrowing conversion
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(1379): warning C4838: conversion from 'int' to 'short' requires a narrowing conversion
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(1423): warning C4838: conversion from 'int' to 'short' requires a narrowing conversion
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(1431): warning C4838: conversion from 'int' to 'short' requires a narrowing conversion
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(1471): warning C4838: conversion from 'int' to 'short' requires a narrowing conversion
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(1479): warning C4838: conversion from 'int' to 'short' requires a narrowing conversion
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(1524): warning C4838: conversion from 'int' to 'short' requires a narrowing conversion
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(1534): warning C4838: conversion from 'int' to 'short' requires a narrowing conversion
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(1749): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(1916): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(1955): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(1983): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(2014): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(2044): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(2375): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(2388): warning C4838: conversion from 'int' to 'short' requires a narrowing conversion
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(2392): warning C4838: conversion from 'int' to 'short' requires a narrowing conversion
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(2458): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(2467): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(2505): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(2936): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(3039): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(3052): warning C4838: conversion from 'int' to 'short' requires a narrowing conversion
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(3056): warning C4838: conversion from 'int' to 'short' requires a narrowing conversion
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(3128): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(3137): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(3175): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(3608): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(3705): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(3890): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(3954): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(4327): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(4479): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(4489): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(4519): warning C4244: '*=': conversion from 'double' to 'int64_t', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(4535): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(4556): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(4579): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(4599): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(4662): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(4663): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(4663): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(4711): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(4730): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(4732): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(4737): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(4739): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(4745): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(4747): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(4753): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(4754): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(4756): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(4857): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(4858): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(4859): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(4912): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(4913): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(4914): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(4981): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(4985): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(5032): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(5036): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(5357): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(5393): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(5525): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(5538): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(5552): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(5702): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(5712): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(5723): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(5828): warning C4244: 'return': conversion from 'int64_t' to 'double', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(5838): warning C4244: '=': conversion from 'float' to 'int64_t', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(5971): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(5974): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(5978): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(5980): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(5985): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(5991): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(5995): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6014): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6023): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6044): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6053): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6057): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6124): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6132): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6202): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6210): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6220): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6255): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6260): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6278): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6308): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6316): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6337): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6342): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6363): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6391): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6399): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6513): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6516): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6519): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6521): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6528): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6546): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6637): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6637): warning C4244: 'argument': conversion from 'double' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=weight_t
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6744): warning C4305: '=': truncation from '__int64' to 'int'
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6744): warning C4309: '=': truncation of constant value
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6892): warning C4244: 'argument': conversion from 'double' to 'weight_t', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(6894): warning C4244: 'argument': conversion from 'double' to 'weight_t', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(7215): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(7292): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(7332): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(7358): warning C4244: 'initializing': conversion from 'int64_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(7387): warning C4244: 'initializing': conversion from 'int64_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(7567): warning C4244: 'initializing': conversion from 'int64_t' to 'double', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(7569): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(7571): warning C4244: 'initializing': conversion from 'int64_t' to 'double', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(7573): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(7585): warning C4244: 'initializing': conversion from 'int64_t' to 'double', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(7587): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(7589): warning C4244: 'initializing': conversion from 'int64_t' to 'double', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(7591): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(7615): warning C4244: 'initializing': conversion from 'int64_t' to 'double', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(7617): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(7619): warning C4244: 'initializing': conversion from 'int64_t' to 'double', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(7621): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(7632): warning C4244: 'initializing': conversion from 'int64_t' to 'double', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(7634): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(7636): warning C4244: 'initializing': conversion from 'int64_t' to 'double', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(7638): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(8103): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(8109): warning C4267: 'argument': conversion from 'size_t' to 'Value', possible loss of data
+          with
+          [
+              Value=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(8252): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(8303): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(8305): warning C4267: 'argument': conversion from 'size_t' to 'Value', possible loss of data
+          with
+          [
+              Value=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(8685): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(8731): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(8733): warning C4267: 'argument': conversion from 'size_t' to 'Value', possible loss of data
+          with
+          [
+              Value=int
+          ]
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(9311): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(9322): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(9338): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(9349): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(9403): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(9430): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(9631): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(9667): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(9691): warning C4244: 'initializing': conversion from 'int64_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(9737): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(9765): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(9811): warning C4244: 'initializing': conversion from 'int64_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(10376): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(10397): warning C4244: 'initializing': conversion from 'int64_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(10416): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(10437): warning C4244: 'initializing': conversion from 'int64_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(10463): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(10720): warning C4244: '=': conversion from 'float' to 'int64_t', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(10825): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(11079): warning C4244: '=': conversion from 'float' to 'int64_t', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(11231): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(11425): warning C4244: '=': conversion from 'float' to 'uint8_t', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(11499): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(11558): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(11603): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(11685): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(12039): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(12065): warning C4244: '=': conversion from 'float' to 'uint8_t', possible loss of data
+c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(12071): warning C4244: '=': conversion from 'float' to 'uint8_t', possible loss of data
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\tuple(236): warning C4244: 'initializing': conversion from '_Ty' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int64_t
+          ]
+          and
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\tuple(357): note: see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=int,
+              _Ty=int64_t,
+              _Other=int64_t
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\tuple(358): note: see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=int,
+              _Ty=int64_t,
+              _Other=int64_t
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\tuple(357): note: see reference to function template instantiation 'std::tuple<int,int,int,int,int,int,int>::tuple<std::_Exact_args_t,_Ty,int,int,int,int,int,int,0>(_Tag,_This2 &&,int &&,int &&,int &&,int &&,int &&,int &&)' being compiled
+          with
+          [
+              _Ty=int64_t,
+              _Tag=std::_Exact_args_t,
+              _This2=int64_t
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\tuple(357): note: see reference to function template instantiation 'std::tuple<int,int,int,int,int,int,int>::tuple<std::_Exact_args_t,_Ty,int,int,int,int,int,int,0>(_Tag,_This2 &&,int &&,int &&,int &&,int &&,int &&,int &&)' being compiled
+          with
+          [
+              _Ty=int64_t,
+              _Tag=std::_Exact_args_t,
+              _This2=int64_t
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\tuple(1035): note: see reference to function template instantiation 'std::tuple<int,int,int,int,int,int,int,int>::tuple<std::_Exact_args_t,int,__int64,int,int,int,int,int,int,0>(_Tag,_This2 &&,__int64 &&,int &&,int &&,int &&,int &&,int &&,int &&)' being compiled
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\tuple(1035): note: see reference to function template instantiation 'std::tuple<int,int,int,int,int,int,int,int>::tuple<std::_Exact_args_t,int,__int64,int,int,int,int,int,int,0>(_Tag,_This2 &&,__int64 &&,int &&,int &&,int &&,int &&,int &&,int &&)' being compiled
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\tuple(372): note: see reference to function template instantiation 'std::tuple<int,int,int,int,int,int,int,int>::tuple<std::_Unpack_tuple_t,_Ty,0,1,2,3,4,5,6,7,0>(_Tag,_Tpl &&,std::integer_sequence<unsigned __int64,0,1,2,3,4,5,6,7>)' being compiled
+          with
+          [
+              _Ty=std::tuple<int,__int64,int,int,int,int,int,int>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<int,__int64,int,int,int,int,int,int>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\tuple(372): note: see reference to function template instantiation 'std::tuple<int,int,int,int,int,int,int,int>::tuple<std::_Unpack_tuple_t,_Ty,0,1,2,3,4,5,6,7,0>(_Tag,_Tpl &&,std::integer_sequence<unsigned __int64,0,1,2,3,4,5,6,7>)' being compiled
+          with
+          [
+              _Ty=std::tuple<int,__int64,int,int,int,int,int,int>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<int,__int64,int,int,int,int,int,int>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\tuple(516): note: see reference to function template instantiation 'std::tuple<int,int,int,int,int,int,int,int>::tuple<std::_Unpack_tuple_t,std::tuple<int,__int64,int,int,int,int,int,int>,0>(_Tag,_Tpl &&)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<int,__int64,int,int,int,int,int,int>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\tuple(516): note: see reference to function template instantiation 'std::tuple<int,int,int,int,int,int,int,int>::tuple<std::_Unpack_tuple_t,std::tuple<int,__int64,int,int,int,int,int,int>,0>(_Tag,_Tpl &&)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<int,__int64,int,int,int,int,int,int>
+          ]
+  c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(9716): note: see reference to function template instantiation 'std::tuple<int,int,int,int,int,int,int,int>::tuple<int,__int64,int,int,int,int,int,int,0>(std::tuple<int,__int64,int,int,int,int,int,int> &&) noexcept' being compiled
+  c:\users\danzeng.cse-yajie\source\repos\tts\tts\tts.cpp(9716): note: see reference to function template instantiation 'std::tuple<int,int,int,int,int,int,int,int>::tuple<int,__int64,int,int,int,int,int,int,0>(std::tuple<int,__int64,int,int,int,int,int,int> &&) noexcept' being compiled
+  Generating code
+  7 of 9196 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    8 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  tts.vcxproj -> C:\Users\danzeng.CSE-YAJIE\source\repos\tts\x64\Release\tts.exe

@@ -1,0 +1,45 @@
+void identifyCutFromPixel3D(std::vector<uint32_t *>& labels, std::vector<stbi_uc*>& g_Image3D, Graph & G, int x, int y, int z, int width, int height,
+int numSlices, int labelCtI, node &n, float S, std::vector<node> & nodes, map<std::vector<int>, int>& edgeWt) {
+	uint32_t labelCt = (uint32_t)labelCtI;
+	std::queue<tuple<int, int, int>> q; q.push({ x,y,z });
+	n.labelCost = 0; n.intensity = 0.0;
+	std::vector<float> diffs;
+	while (!q.empty()) {
+		tuple<int, int, int> pt = q.front(); q.pop();
+		int px = get<0>(pt); int py = get<1>(pt); int pz = get<2>(pt);
+		if (Label(labels[pz][px + (width*py)]) == unvisited) {
+
+			//max difference with respect to shape, corresponding to birth/death of feature
+			//n.labelCost = max(n.labelCost, ((float)g_Image3D[pz][px + (width*py)]) - S);
+			n.labelCost += (((int64_t)g_Image3D[pz][px + (width*py)]) - S);
+			
+			changeLabel(labelCt, labels[pz][px + (width*py)]);
+			setVisitedFlag(labels[pz][px + (width*py)], 1);
+			//flood fill to nearby neighbor depending on priority.
+			for (int i = 0; i < structCube.size(); i++) {
+				int nx = px + structCube[i][0]; int ny = py + structCube[i][1]; int nz = pz + structCube[i][2];
+
+				if (nx >= 0 && nx < width && ny >= 0 && ny < height && nz >= 0 && nz < numSlices) {
+					if ((float)g_Image3D[nz][nx + (width*ny)] > S) {
+						if (Label(labels[nz][nx + (width*ny)]) == unvisited) { //unvisited
+							if (ccNeighbor(nodes, px, py, pz, nx, ny, nz, labels, width, height, numSlices, g_Image3D, S)) {
+								q.push(std::make_tuple(nx, ny, nz));
+							}
+						}
+					}
+				}
+			}
+
+			for (int i = 0; i < structCube.size(); i++) {
+				int xn = px + structCube[i][0]; int yn = py + structCube[i][1]; int zn = pz + structCube[i][2];
+				if (xn >= 0 && xn < width && yn >= 0 && yn < height && zn >= 0 && zn < numSlices) {
+					if (Label(labels[zn][xn + (width*yn)]) != unvisited && Label(labels[pz][px + (width*py)]) != Label(labels[zn][xn + (width*yn)])) { //neighboring voxel has a label, is potential edge
+						if (ccNeighbor(nodes, px, py, pz, xn, yn, zn, labels, width, height, numSlices, g_Image3D, S)) {
+							addEdge(G, edgeWt, labelCt, Label(labels[zn][xn + (width*yn)]), px, py, pz, xn, yn, zn);
+						}
+					}
+				}
+
+			}
+		}
+	}
