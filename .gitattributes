@@ -1,0 +1,2 @@
+*.bin filter=lfs diff=lfs merge=lfs -text
+x64/Release/simpleDictionaryFull.bin filter=lfs diff=lfs merge=lfs -text
