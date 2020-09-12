@@ -62,15 +62,6 @@
     <ClCompile Include="..\third_party\dapcstp\src\options.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\third_party\tinyTIFF\tinytiffhighrestimer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\third_party\tinyTIFF\tinytiffreader.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\third_party\tinyTIFF\tinytiffwriter.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="TopoSimplifier.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
