@@ -78,12 +78,14 @@ There are no known software to visualize .dist files, because this is a customiz
 
 In the case of 3D shapes extracted from real images (e.g. biomedical or plant imaging), UCSF Chimera can also be used to help you decide a good value for the --S parameter of TopoSimplifier (the input level set which defines the shape to be simplified). Just drag the level set bar (as pictured above) in the Volume Viewer and observe the changes in the iso-surface until you see a shape that you would like to see simplified. 
 
-##Examples
+
+## Examples
 
 See the examples section of our ['project page'](https://danzeng8.github.io/topo-simplifier/#examples). 
 We provide all examples from the paper and some other ones.
 
-##All arguments and parameters
+
+## All arguments and parameters
 
 By default, the program assumes that the input surface is being defined at a level set of 0 within the input volume. This will be true for distance fields, which are typically in the .tif format. Hence the --S parameter usually does not need to be defined for distance field inputs. A few of our examples are just like this, such as the tree model: 
 
