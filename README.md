@@ -99,12 +99,10 @@ The above S, K, and N are the parameters which will be used the most. All other 
 
 
 Required:
-        --in    <Input file>    Format: .tif file, .dist file, or directory with .png image slices
-        --out   <Output file>   Format: If input file is .tif, output must be .tif.
-                                                                        If input file is .dist, output must be .dist.
-                                                                        If input is directory of image slices, output must be name of output directory
+* --in    <Input file>    Format: .tif file, .dist file, or directory with .png image slices
+* --out   <Output file>   Format: If input file is .tif, output must be .tif. If input file is .dist, output must be .tif. If input is directory of image slices, output must be name of output directory
 Required for .png image slices (e.g. biomedical / plant images):
-        --S     <Float or Integer> : Shape threshold for the input surface being simplified. Defines an iso-surface / level set. Default: 0
+* --S     <Float or Integer> : Shape threshold for the input surface being simplified. Defines an iso-surface / level set. Default: 0
 Optional:
         Simplification level (Kernel and Neighborhood):
                 --K <Float or Integer> : Kernel threshold (Upper level set). Default: Highest value in image volume.
