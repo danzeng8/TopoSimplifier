@@ -136,6 +136,14 @@ Stats:
 Comparing with Greedy Approach:
 * --allGreedy: (flag) Instead of performing our algorithm, run a completely greedy approach.
 
+## Generating a distance field from a surface mesh
 
+In order to simplify a surface mesh without any underlying voxelized representation (e.g. a biomedical / plant image), our code must take as input a signed distance field (SDF) computed from that surface mesh. We computed our SDF's using the ['Vega-FEM library'](http://barbic.usc.edu/vega/). In their source folder is a utilities subfolder which contains the "computeDistanceField" folder and program. After running ./computeDistanceField on an input .ply file, the output of that program will be a .dist file. 
 
+This .dist file can be converted to .tif using the python script distFieldVol.py in this repository:
 
+	python distFieldVol.py input.dist input_converted.tif
+
+This .tif file can then be used as input to TopoSimplifier:
+
+	TopoSimplifier input_converted.tif output.tif
