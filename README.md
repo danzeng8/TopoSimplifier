@@ -101,31 +101,38 @@ The above S, K, and N are the parameters which will be used the most. All other 
 Required:
 * --in    <Input file>    Format: .tif file, .dist file, or directory with .png image slices
 * --out   <Output file>   Format: If input file is .tif, output must be .tif. If input file is .dist, output must be .tif. If input is directory of image slices, output must be name of output directory
+
 Required for .png image slices (e.g. biomedical / plant images):
 * --S     <Float or Integer> : Shape threshold for the input surface being simplified. Defines an iso-surface / level set. Default: 0
+
 Optional:
-        Simplification level (Kernel and Neighborhood):
-                --K <Float or Integer> : Kernel threshold (Upper level set). Default: Highest value in image volume.
-                --N <Float or Integer> : Neighborhood threshold (Lower level set). Default: Lowest value in image volume.
-        Visualization:
-                --vizEps <Float or Integer> : Visualization offset: the larger this value, the larger the applied changes will appear. Default: 0.01 for .tif, 10 for .png
-                --exportGen: flag which exports all computed cuts and fills, and selected cuts and fills as separate .ply mesh files.
-        Type of simplification (Minimal or Smooth Morphological):
-                By default, minimal geometric simplifications are performed. If either parameter below is specified to be not 0, then morphological opening/closing will be used instead.
-                        --open <Integer> : Number of opening iterations (Specifies kernel). Default: 0
-                        --close <Integer> : Number of closing iterations (Specifies neighborhood). Default: 0
-        Quality / Time tradeoff:
-                --P <Integer> : The higher this is, the faster our algorithm, with no sacrifice in quality. Local groups of cuts and fills whose product of connected kernel and neighborhood terminal nodes is less than this value will be processed as local clusters. Default: INFINITY
-                --globalTime <Float or Integer> : Time threshold for the global steiner tree solver. The higher this value, the more optimal, but more time consuming. Default: 8.
-                --localTime <Float or Integer> : Time threshold for the local steiner tree solver. The higher this value, the more optimal, but more time consuming. Default: 3.
-                --hypernodeSize <Integer> : The maximum # of connected cuts / fills in a single hypernode of our augmented hypergraph. The higher this value, the more optimal, but more time consuming. Default: 1.
-                --se <Integer> : structuring element used for morphological opening and closing (0 for 3D cross, 1 for 18-connected neighborhood, 2 for 3D cube). Default: 0 (3D cross).
-                --greedy: <Integer> : Perform greedy step at the end of our algorithm to monotonically improve our results. 1 for on, 0 for off. Default: 1.
-        Stats:
-                --shapeTopo : (flag) Print in the console topology numbers of the input shape (as specified by --S, which is 0 by default)
-                --showGeomCost : (flag) Print out the geometry cost of the result of our algorithm, as well as hypothetically applying all cuts, or all fills instead.
-        Comparing with Greedy Approach:
-                --allGreedy: (flag) Instead of performing our algorithm, run a completely greedy approach.
+
+Simplification level (Kernel and Neighborhood):
+* --K <Float or Integer> : Kernel threshold (Upper level set). Default: Highest value in image volume.
+* --N <Float or Integer> : Neighborhood threshold (Lower level set). Default: Lowest value in image volume.
+
+Visualization:
+* --vizEps <Float or Integer> : Visualization offset: the larger this value, the larger the applied changes will appear. Default: 0.01 for .tif, 10 for .png
+* --exportGen: flag which exports all computed cuts and fills, and selected cuts and fills as separate .ply mesh files.
+
+Type of simplification (Minimal or Smooth Morphological). By default, minimal geometric simplifications are performed. If either parameter below is specified to be not 0, then morphological opening/closing will be used instead.
+* --open <Integer> : Number of opening iterations (Specifies kernel). Default: 0
+* --close <Integer> : Number of closing iterations (Specifies neighborhood). Default: 0
+
+Quality / Time tradeoff:
+* --P <Integer> : The higher this is, the faster our algorithm, with no sacrifice in quality. Local groups of cuts and fills whose product of connected kernel and neighborhood terminal nodes is less than this value will be processed as local clusters. Default: INFINITY
+* --globalTime <Float or Integer> : Time threshold for the global steiner tree solver. The higher this value, the more optimal, but more time consuming. Default: 8.
+* --localTime <Float or Integer> : Time threshold for the local steiner tree solver. The higher this value, the more optimal, but more time consuming. Default: 3.
+* --hypernodeSize <Integer> : The maximum # of connected cuts / fills in a single hypernode of our augmented hypergraph. The higher this value, the more optimal, but more time consuming. Default: 1.
+* --se <Integer> : structuring element used for morphological opening and closing (0 for 3D cross, 1 for 18-connected neighborhood, 2 for 3D cube). Default: 0 (3D cross).
+* --greedy: <Integer> : Perform greedy step at the end of our algorithm to monotonically improve our results. 1 for on, 0 for off. Default: 1.
+
+Stats:
+* --shapeTopo : (flag) Print in the console topology numbers of the input shape (as specified by --S, which is 0 by default)
+* --showGeomCost : (flag) Print out the geometry cost of the result of our algorithm, as well as hypothetically applying all cuts, or all fills instead.
+
+Comparing with Greedy Approach:
+* --allGreedy: (flag) Instead of performing our algorithm, run a completely greedy approach.
 
 
 
