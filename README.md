@@ -62,10 +62,10 @@ Go to Tools > Volume Data > Volume Viewer. Then in the Volume Viewer window chan
 Here is an example visualization in Chimera for the tree example in our dataset, using the settings above:
 
 Input shape: 
-![](images/treeIn.png)
+![](images/treeIn.PNG)
 
 Output shape:
-![](images/treeOut.png)
+![](images/treeOut.PNG)
 
 Mouse controls: 
 Rotate: left-draw
