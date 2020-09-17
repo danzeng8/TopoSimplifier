@@ -29,7 +29,7 @@ TopoSimplifier has been developed for Windows 10 (Visual Studio 2019), and has n
 
 You will need Visual Studio 2019.
 
-Open the Visual Studio solution file TopoSimplifier.sln. Go to Build > Build Solution. After it successfully builds, TopoSimplifier.exe will be updated in the main TopoSimplifier directory. 
+Open the Visual Studio solution file TopoSimplifier.sln. Set the build mode to Release and target platform to x64. Go to Build > Build Solution. After it successfully builds, TopoSimplifier.exe will be updated in the main TopoSimplifier directory. 
 
 It is preferred to use Windows SDK Version 10.0. You can check to see if you have this by going to Project > Properties > Configuration Properties > General > Windows SDK Version.
 
