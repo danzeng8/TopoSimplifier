@@ -1,0 +1,10 @@
+﻿Build started 1/11/2016 2:06:20 PM.
+     1>Project "C:\Software\Development\tiff-4.0.6\project\ALL_BUILD.vcxproj" on node 6 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Software/Development/tiff-4.0.6/CMakeLists.txt
+         CMake does not need to re-run because C:\Software\Development\tiff-4.0.6\project\CMakeFiles\generate.stamp is up-to-date.
+     1>Done Building Project "C:\Software\Development\tiff-4.0.6\project\ALL_BUILD.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.16

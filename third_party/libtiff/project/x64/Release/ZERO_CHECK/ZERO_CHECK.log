@@ -1,0 +1,30 @@
+﻿Build started 1/11/2016 2:06:41 PM.
+     1>Project "C:\Software\Development\tiff-4.0.6\project\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because C:/Software/Development/tiff-4.0.6/project/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Software/Development/tiff-4.0.6/project/port/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Software/Development/tiff-4.0.6/project/libtiff/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Software/Development/tiff-4.0.6/project/tools/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Software/Development/tiff-4.0.6/project/test/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Software/Development/tiff-4.0.6/project/contrib/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Software/Development/tiff-4.0.6/project/contrib/addtiffo/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Software/Development/tiff-4.0.6/project/contrib/dbs/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Software/Development/tiff-4.0.6/project/contrib/dbs/xtiff/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Software/Development/tiff-4.0.6/project/contrib/iptcutil/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Software/Development/tiff-4.0.6/project/contrib/mfs/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Software/Development/tiff-4.0.6/project/contrib/pds/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Software/Development/tiff-4.0.6/project/contrib/ras/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Software/Development/tiff-4.0.6/project/contrib/stream/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Software/Development/tiff-4.0.6/project/contrib/tags/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Software/Development/tiff-4.0.6/project/contrib/win_dib/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Software/Development/tiff-4.0.6/project/build/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Software/Development/tiff-4.0.6/project/man/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Software/Development/tiff-4.0.6/project/html/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Software/Development/tiff-4.0.6/project/html/images/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Software/Development/tiff-4.0.6/project/html/man/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "C:\Software\Development\tiff-4.0.6\project\ZERO_CHECK.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.10

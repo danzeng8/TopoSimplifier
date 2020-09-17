@@ -1,0 +1,25 @@
+﻿Build started 1/11/2016 2:06:13 PM.
+     1>Project "C:\Software\Development\tiff-4.0.6\project\contrib\addtiffo\addtiffo.vcxproj" on node 6 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Software/Development/tiff-4.0.6/contrib/addtiffo/CMakeLists.txt
+         CMake does not need to re-run because C:\Software\Development\tiff-4.0.6\project\contrib\addtiffo\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Software\Development\VisualStudio14\VC\bin\x86_amd64\CL.exe /c /I"C:\Software\Development\tiff-4.0.6\libtiff" /I"C:\Software\Development\tiff-4.0.6\project\libtiff" /I"C:\Software\Development\tiff-4.0.6\project\contrib\addtiffo" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"addtiffo.dir\Debug\\" /Fd"addtiffo.dir\Debug\vc140.pdb" /Gd /TC /errorReport:prompt "C:\Software\Development\tiff-4.0.6\contrib\addtiffo\addtiffo.c" "C:\Software\Development\tiff-4.0.6\contrib\addtiffo\tif_overview.c" "C:\Software\Development\tiff-4.0.6\contrib\addtiffo\tif_ovrcache.c"
+         addtiffo.c
+         tif_overview.c
+     1>C:\Software\Development\tiff-4.0.6\contrib\addtiffo\tif_overview.c(156): warning C4244: 'return': conversion from 'toff_t' to 'uint32', possible loss of data
+         tif_ovrcache.c
+     1>C:\Software\Development\tiff-4.0.6\contrib\addtiffo\tif_ovrcache.c(286): warning C4244: '=': conversion from 'toff_t' to 'long', possible loss of data
+     1>C:\Software\Development\tiff-4.0.6\contrib\addtiffo\tif_ovrcache.c(289): warning C4244: '=': conversion from 'toff_t' to 'long', possible loss of data
+     1>C:\Software\Development\tiff-4.0.6\contrib\addtiffo\tif_ovrcache.c(316): warning C4244: '=': conversion from 'toff_t' to 'int', possible loss of data
+         Generating Code...
+       Link:
+         C:\Software\Development\VisualStudio14\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Software\Development\tiff-4.0.6\project\contrib\addtiffo\Debug\addtiffo.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\libtiff\Debug\tiffd.lib ..\..\port\Debug\portd.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Software/Development/tiff-4.0.6/project/contrib/addtiffo/Debug/addtiffo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Software/Development/tiff-4.0.6/project/contrib/addtiffo/Debug/addtiffo.lib" /MACHINE:X64  /machine:x64 /debug addtiffo.dir\Debug\addtiffo.obj
+         addtiffo.dir\Debug\tif_overview.obj
+         addtiffo.dir\Debug\tif_ovrcache.obj
+         addtiffo.vcxproj -> C:\Software\Development\tiff-4.0.6\project\contrib\addtiffo\Debug\addtiffo.exe
+     1>Done Building Project "C:\Software\Development\tiff-4.0.6\project\contrib\addtiffo\addtiffo.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.04

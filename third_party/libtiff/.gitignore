@@ -1,0 +1,8 @@
+*.asv
+*.bak
+*.pdb
+version.txt
+*cmake*
+*.obj
+tiff*.dir
+*vcxproj*

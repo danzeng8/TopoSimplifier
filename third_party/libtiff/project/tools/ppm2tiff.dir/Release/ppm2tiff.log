@@ -1,0 +1,28 @@
+﻿Build started 1/11/2016 2:06:57 PM.
+     1>Project "C:\Software\Development\tiff-4.0.6\project\tools\ppm2tiff.vcxproj" on node 4 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Software/Development/tiff-4.0.6/tools/CMakeLists.txt
+         CMake does not need to re-run because C:\Software\Development\tiff-4.0.6\project\tools\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Software\Development\VisualStudio14\VC\bin\x86_amd64\CL.exe /c /I"C:\Software\Development\tiff-4.0.6\libtiff" /I"C:\Software\Development\tiff-4.0.6\project\libtiff" /I"C:\Software\Development\tiff-4.0.6\port" /I"C:\Software\Development\tiff-4.0.6\project\tools" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ppm2tiff.dir\Release\\" /Fd"ppm2tiff.dir\Release\vc140.pdb" /Gd /TC /errorReport:prompt "C:\Software\Development\tiff-4.0.6\tools\ppm2tiff.c"
+         ppm2tiff.c
+     1>C:\Software\Development\tiff-4.0.6\tools\ppm2tiff.c(139): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>C:\Software\Development\tiff-4.0.6\tools\ppm2tiff.c(148): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _setmode. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_io.h(528): note: see declaration of 'setmode'
+     1>C:\Software\Development\tiff-4.0.6\tools\ppm2tiff.c(148): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2450): note: see declaration of 'fileno'
+     1>C:\Software\Development\tiff-4.0.6\tools\ppm2tiff.c(199): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+     1>C:\Software\Development\tiff-4.0.6\tools\ppm2tiff.c(205): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+     1>C:\Software\Development\tiff-4.0.6\tools\ppm2tiff.c(383): warning C4996: 'setbuf': This function or variable may be unsafe. Consider using setvbuf instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(396): note: see declaration of 'setbuf'
+       Link:
+         C:\Software\Development\VisualStudio14\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Software\Development\tiff-4.0.6\project\tools\Release\ppm2tiff.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\libtiff\Release\tiff.lib ..\port\Release\port.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Software/Development/tiff-4.0.6/project/tools/Release/ppm2tiff.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Software/Development/tiff-4.0.6/project/tools/Release/ppm2tiff.lib" /MACHINE:X64  /machine:x64 ppm2tiff.dir\Release\ppm2tiff.obj
+         ppm2tiff.vcxproj -> C:\Software\Development\tiff-4.0.6\project\tools\Release\ppm2tiff.exe
+     1>Done Building Project "C:\Software\Development\tiff-4.0.6\project\tools\ppm2tiff.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.59

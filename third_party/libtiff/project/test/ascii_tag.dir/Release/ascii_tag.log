@@ -1,0 +1,18 @@
+﻿Build started 1/11/2016 2:06:55 PM.
+     1>Project "C:\Software\Development\tiff-4.0.6\project\test\ascii_tag.vcxproj" on node 3 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Software/Development/tiff-4.0.6/test/CMakeLists.txt
+         CMake does not need to re-run because C:\Software\Development\tiff-4.0.6\project\test\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Software\Development\VisualStudio14\VC\bin\x86_amd64\CL.exe /c /I"C:\Software\Development\tiff-4.0.6\libtiff" /I"C:\Software\Development\tiff-4.0.6\project\libtiff" /I"C:\Software\Development\tiff-4.0.6\project\test" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ascii_tag.dir\Release\\" /Fd"ascii_tag.dir\Release\vc140.pdb" /Gd /TC /errorReport:prompt "C:\Software\Development\tiff-4.0.6\test\ascii_tag.c"
+         ascii_tag.c
+     1>C:\Software\Development\tiff-4.0.6\test\ascii_tag.c(165): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(380): note: see declaration of 'unlink'
+       Link:
+         C:\Software\Development\VisualStudio14\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Software\Development\tiff-4.0.6\project\test\Release\ascii_tag.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\libtiff\Release\tiff.lib ..\port\Release\port.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Software/Development/tiff-4.0.6/project/test/Release/ascii_tag.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Software/Development/tiff-4.0.6/project/test/Release/ascii_tag.lib" /MACHINE:X64  /machine:x64 ascii_tag.dir\Release\ascii_tag.obj
+         ascii_tag.vcxproj -> C:\Software\Development\tiff-4.0.6\project\test\Release\ascii_tag.exe
+     1>Done Building Project "C:\Software\Development\tiff-4.0.6\project\test\ascii_tag.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.52

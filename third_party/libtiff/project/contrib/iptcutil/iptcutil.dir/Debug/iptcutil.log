@@ -1,0 +1,37 @@
+﻿Build started 1/11/2016 2:06:15 PM.
+     1>Project "C:\Software\Development\tiff-4.0.6\project\contrib\iptcutil\iptcutil.vcxproj" on node 5 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Software/Development/tiff-4.0.6/contrib/iptcutil/CMakeLists.txt
+         CMake does not need to re-run because C:\Software\Development\tiff-4.0.6\project\contrib\iptcutil\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Software\Development\VisualStudio14\VC\bin\x86_amd64\CL.exe /c /I"C:\Software\Development\tiff-4.0.6\libtiff" /I"C:\Software\Development\tiff-4.0.6\project\libtiff" /I"C:\Software\Development\tiff-4.0.6\project\contrib\iptcutil" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"iptcutil.dir\Debug\\" /Fd"iptcutil.dir\Debug\vc140.pdb" /Gd /TC /errorReport:prompt "C:\Software\Development\tiff-4.0.6\contrib\iptcutil\iptcutil.c"
+         iptcutil.c
+     1>C:\Software\Development\tiff-4.0.6\contrib\iptcutil\iptcutil.c(159): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+     1>C:\Software\Development\tiff-4.0.6\contrib\iptcutil\iptcutil.c(169): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>C:\Software\Development\tiff-4.0.6\contrib\iptcutil\iptcutil.c(183): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(579): note: see declaration of 'strnicmp'
+     1>C:\Software\Development\tiff-4.0.6\contrib\iptcutil\iptcutil.c(185): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>C:\Software\Development\tiff-4.0.6\contrib\iptcutil\iptcutil.c(348): warning C4311: 'type cast': pointer truncation from 'char *' to 'long'
+     1>C:\Software\Development\tiff-4.0.6\contrib\iptcutil\iptcutil.c(353): warning C4311: 'type cast': pointer truncation from 'char *' to 'long'
+     1>C:\Software\Development\tiff-4.0.6\contrib\iptcutil\iptcutil.c(368): warning C4311: 'type cast': pointer truncation from 'char *' to 'long'
+     1>C:\Software\Development\tiff-4.0.6\contrib\iptcutil\iptcutil.c(537): warning C4267: '=': conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>C:\Software\Development\tiff-4.0.6\contrib\iptcutil\iptcutil.c(546): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Software\Development\tiff-4.0.6\contrib\iptcutil\iptcutil.c(433): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>C:\Software\Development\tiff-4.0.6\contrib\iptcutil\iptcutil.c(435): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>C:\Software\Development\tiff-4.0.6\contrib\iptcutil\iptcutil.c(444): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>C:\Software\Development\tiff-4.0.6\contrib\iptcutil\iptcutil.c(446): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+       Link:
+         C:\Software\Development\VisualStudio14\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Software\Development\tiff-4.0.6\project\contrib\iptcutil\Debug\iptcutil.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\libtiff\Debug\tiffd.lib ..\..\port\Debug\portd.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Software/Development/tiff-4.0.6/project/contrib/iptcutil/Debug/iptcutil.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Software/Development/tiff-4.0.6/project/contrib/iptcutil/Debug/iptcutil.lib" /MACHINE:X64  /machine:x64 /debug iptcutil.dir\Debug\iptcutil.obj
+         iptcutil.vcxproj -> C:\Software\Development\tiff-4.0.6\project\contrib\iptcutil\Debug\iptcutil.exe
+     1>Done Building Project "C:\Software\Development\tiff-4.0.6\project\contrib\iptcutil\iptcutil.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.06

@@ -1,0 +1,33 @@
+﻿Build started 1/11/2016 2:06:58 PM.
+     1>Project "C:\Software\Development\tiff-4.0.6\project\test\strip_rw.vcxproj" on node 7 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Software/Development/tiff-4.0.6/test/CMakeLists.txt
+         CMake does not need to re-run because C:\Software\Development\tiff-4.0.6\project\test\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Software\Development\VisualStudio14\VC\bin\x86_amd64\CL.exe /c /I"C:\Software\Development\tiff-4.0.6\libtiff" /I"C:\Software\Development\tiff-4.0.6\project\libtiff" /I"C:\Software\Development\tiff-4.0.6\project\test" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"strip_rw.dir\Release\\" /Fd"strip_rw.dir\Release\vc140.pdb" /Gd /TC /errorReport:prompt "C:\Software\Development\tiff-4.0.6\test\strip_rw.c" "C:\Software\Development\tiff-4.0.6\test\strip.c" "C:\Software\Development\tiff-4.0.6\test\test_arrays.c"
+         strip_rw.c
+     1>C:\Software\Development\tiff-4.0.6\test\strip_rw.c(89): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(380): note: see declaration of 'unlink'
+     1>C:\Software\Development\tiff-4.0.6\test\strip_rw.c(105): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(380): note: see declaration of 'unlink'
+     1>C:\Software\Development\tiff-4.0.6\test\strip_rw.c(131): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(380): note: see declaration of 'unlink'
+     1>C:\Software\Development\tiff-4.0.6\test\strip_rw.c(148): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(380): note: see declaration of 'unlink'
+     1>C:\Software\Development\tiff-4.0.6\test\strip_rw.c(153): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(380): note: see declaration of 'unlink'
+         strip.c
+         test_arrays.c
+     1>C:\Software\Development\tiff-4.0.6\test\test_arrays.c(370): warning C4305: 'initializing': truncation from 'double' to 'const float'
+     1>C:\Software\Development\tiff-4.0.6\test\test_arrays.c(491): warning C4305: 'initializing': truncation from 'double' to 'const float'
+         Generating Code...
+       Link:
+         C:\Software\Development\VisualStudio14\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Software\Development\tiff-4.0.6\project\test\Release\strip_rw.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\libtiff\Release\tiff.lib ..\port\Release\port.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Software/Development/tiff-4.0.6/project/test/Release/strip_rw.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Software/Development/tiff-4.0.6/project/test/Release/strip_rw.lib" /MACHINE:X64  /machine:x64 strip_rw.dir\Release\strip_rw.obj
+         strip_rw.dir\Release\strip.obj
+         strip_rw.dir\Release\test_arrays.obj
+         strip_rw.vcxproj -> C:\Software\Development\tiff-4.0.6\project\test\Release\strip_rw.exe
+     1>Done Building Project "C:\Software\Development\tiff-4.0.6\project\test\strip_rw.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.80
