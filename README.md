@@ -33,6 +33,10 @@ Open the Visual Studio solution file TopoSimplifier.sln. Go to Build > Build Sol
 
 It is preferred to use Windows SDK Version 10.0. You can check to see if you have this by going to Project > Properties > Configuration Properties > General > Windows SDK Version.
 
+To check that it runs properly for the next step, try displaying the help menu:
+
+	TopoSimplifier --help
+
 ## Running TopoSimplifier
 
 TopoSimplifier accepts three possible input types:
