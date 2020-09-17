@@ -9,8 +9,8 @@
 [`Paper`](https://danzeng8.github.io/topo-simplifier/#paper)
 <br/>
 [`Dataset (input and output)`](https://danzeng8.github.io/topo-simplifier/examples.zip)
-[`Only inputs`](https://danzeng8.github.io/topo-simplifier/examples_in.zip)
-[`Only outputs`](https://danzeng8.github.io/topo-simplifier/examples_in.zip)
+[`Only input data`](https://danzeng8.github.io/topo-simplifier/examples_in.zip)
+[`Only output data`](https://danzeng8.github.io/topo-simplifier/examples_in.zip)
 
 
 ## Abstract
