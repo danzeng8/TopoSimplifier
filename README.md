@@ -33,11 +33,15 @@ Open the Visual Studio solution file TopoSimplifier.sln. Set the build mode to R
 
 It is preferred to use Windows SDK Version 10.0. You can check to see if you have this by going to Project > Properties > Configuration Properties > General > Windows SDK Version.
 
-To check that it runs properly for the next step, try displaying the help menu:
+To check that it runs properly for the next step, open up the command prompt, use the cd command to navigate to the TopoSimplifier directory (containing TopoSimplifier.exe), and run the following command:
 
 	TopoSimplifier --help
 
+This will display the help menu.
+
 ## Running TopoSimplifier
+
+TopoSimplifier runs on the command-line. Open up the command prompt and then use the "cd" command to navigate to the main TopoSimplifier directory (containing TopoSimplifier.exe). 
 
 TopoSimplifier accepts three possible input types:
 * .tif: typically for distance field volumes
@@ -54,7 +58,9 @@ For a directory with .png image slices, this looks like:
 
 	TopoSimplifier input/ output/
 
-Read on for discussion about other parameters.
+For examples to try, see the examples section of our ['project page'](https://danzeng8.github.io/topo-simplifier/#examples)
+
+Read on for discussion about other (optional) parameters.
 
 ## Visualization of input and output
 
