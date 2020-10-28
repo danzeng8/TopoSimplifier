@@ -7,6 +7,9 @@
 
 [`Project Page`](https://danzeng8.github.io/topo-simplifier)
 [`Paper`](https://danzeng8.github.io/topo-simplifier/#paper)
+[`Presentation (video)`](https://www.youtube.com/watch?v=ZP5wIIwNZFY)
+[`Presentation (Powerpoint)`](https://danzeng8.github.io/topo-simplifier/images/presentation.pptx)
+[`Presentation (PDF)`](https://danzeng8.github.io/topo-simplifier/images/presentation.pdf)
 <br/>
 [`Dataset (input and output)`](https://www.dropbox.com/s/sz3nj5vju43nxgy/examples.zip?dl=0)
 [`Only input data`](https://www.dropbox.com/s/n5lm6dlv7y8radh/examples_in.zip?dl=0)
