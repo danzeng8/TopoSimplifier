@@ -32,6 +32,8 @@ TopoSimplifier has been developed for Windows 10 (Visual Studio 2019), and has n
 
 You will need Visual Studio 2019.
 
+**Please download simpleDictionaryFull.bin separately.** Click ['here'](https://github.com/danzeng8/TopoSimplifier/raw/master/simpleDictionaryFull.bin) to download or go to the file link above and click Download. This important file was uploaded to github using Git LFS, so attempting to download it as part of the rest of the project only results in a small portion of the file to be downloaded.
+
 Open the Visual Studio solution file TopoSimplifier.sln. Set the build mode to Release and target platform to x64. Go to Build > Build Solution. After it successfully builds, TopoSimplifier.exe will be updated in the main TopoSimplifier directory. 
 
 It is preferred to use Windows SDK Version 10.0. You can check to see if you have this by going to Project > Properties > Configuration Properties > General > Windows SDK Version.
