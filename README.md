@@ -12,7 +12,7 @@
 [`Presentation (PDF)`](https://danzeng8.github.io/topo-simplifier/images/presentation.pdf)
 <br/>
 [`Dataset (input and output)`](https://www.dropbox.com/sh/sewrrc5i173igyn/AAAqEDBAGUKj6Xd6JQT9L1Zra?dl=0)
-[`Only input data`](https://www.dropbox.com/sh/sewrrc5i173igyn/AAAqEDBAGUKj6Xd6JQT9L1Zra?dl=0)
+[`Only input data`](https://www.dropbox.com/sh/tmi5jgaejs96isz/AADA8pgY03GUpPYZ9wzkbm-Aa?dl=0)
 [`Only output data`](https://www.dropbox.com/sh/17gij1o7wrmokg7/AAAumafaLeOlN7uPbSS6_qdva?dl=0)
 
 
