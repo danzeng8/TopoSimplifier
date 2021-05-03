@@ -11,9 +11,9 @@
 [`Presentation (Powerpoint)`](https://danzeng8.github.io/topo-simplifier/images/presentation.pptx)
 [`Presentation (PDF)`](https://danzeng8.github.io/topo-simplifier/images/presentation.pdf)
 <br/>
-[`Dataset (input and output)`](https://www.dropbox.com/s/sz3nj5vju43nxgy/examples.zip?dl=0)
-[`Only input data`](https://www.dropbox.com/s/n5lm6dlv7y8radh/examples_in.zip?dl=0)
-[`Only output data`](https://www.dropbox.com/s/nt0facl375ara0p/examples_out.zip?dl=0)
+[`Dataset (input and output)`](https://www.dropbox.com/sh/sewrrc5i173igyn/AAAqEDBAGUKj6Xd6JQT9L1Zra?dl=0)
+[`Only input data`](https://www.dropbox.com/sh/sewrrc5i173igyn/AAAqEDBAGUKj6Xd6JQT9L1Zra?dl=0)
+[`Only output data`](https://www.dropbox.com/sh/17gij1o7wrmokg7/AAAumafaLeOlN7uPbSS6_qdva?dl=0)
 
 
 ## Abstract
