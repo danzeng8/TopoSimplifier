@@ -76,7 +76,7 @@ After opening up the UCSF Chimera Software, and go to File > Open. If the input 
 
 Visualizing the shape: 
 
-Go to Tools > Volume Data > Volume Viewer. Then in the Volume Viewer window change Style to "surface", step size to "1", and draw the iso-surface bar to the shape threshold which defines the shape being simplified. In the case of distance fields, this threshold will be 0. For other cases, this may vary but should match what you chose for the --S parameter (see below two sections).
+Go to Tools > Volume Data > Volume Viewer. Then in the Volume Viewer window change Style to "surface", step size to "1", and drag the iso-surface bar to the shape threshold which defines the shape being simplified. In the case of distance fields, this threshold will be 0. For other cases, this may vary but should match what you chose for the --S parameter (see below two sections).
 
 Here is an example visualization in Chimera for the tree example in our dataset, using the settings above:
 
